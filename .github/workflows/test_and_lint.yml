@@ -2,9 +2,9 @@ name: Test and Lint
 
 on:
   push:
-    branches: [dev, staging]
+    branches: [dev, staging, develop]
   pull_request:
-    branches: [main, master, dev, staging]
+    branches: [main, master, dev, staging, develop]
 
 jobs:
   validate_terraform:
