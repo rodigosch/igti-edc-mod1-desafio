@@ -6,7 +6,7 @@ image: hashicorp/terraform
 
 pipelines:
   pull-requests:
-    dev:
+    develop:
       - step:
           name: Test Infra
           script:
